@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mighty_Maestro.Models.Maestro
+{
+    public class MaestroListItem // <- This is a BUTTON, Loads DETAILS
+    {
+        public int MaestroId { get; set; }
+        public string MaestroName { get; set; }
+    }
+}

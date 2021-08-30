@@ -1,0 +1,98 @@
+﻿@model Mighty_Maestro.Models.Maestro.MaestroDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div style="color:black; background-color:white;padding:20px;opacity:70%;">
+<h2 class="text-center">Maestro Details</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OwnerId)
+            Owner Id
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OwnerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaestroId)
+            Maestro Id
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaestroId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaestroName)
+            Maestro Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaestroName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPoints)
+            Total Points
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalPoints)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ScalesPoints)
+            Scales Points
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ScalesPoints)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ChordsPoints)
+            Chords Points
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ChordsPoints)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KeysPoints)
+            Keys Points
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KeysPoints)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProgressionsPoints)
+            Progression Points
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProgressionsPoints)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VenueAchieved)
+            Venue Achieved
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VenueAchieved)
+        </dd>
+
+    </dl>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaestroId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+</div>

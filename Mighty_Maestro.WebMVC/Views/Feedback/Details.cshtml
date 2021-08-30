@@ -1,0 +1,56 @@
+﻿@model Mighty_Maestro.Models.Feedback.FeedbackDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div style="color:black; background-color:white;padding:20px;opacity:70%;">
+    <h2 class="text-center">Feedback Details</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FeedbackId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FeedbackId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeacherId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeacherId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnswerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnswerId)
+        </dd>
+
+        <dd>
+            @Html.DisplayNameFor(model => model.FeedbackAnswer)
+        </dd>
+
+        <dt>
+            @Html.DisplayFor(model => model.FeedbackAnswer)
+        </dt>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CorrectAnswer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CorrectAnswer)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

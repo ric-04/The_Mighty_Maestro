@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Mighty_Maestro.Models.Questions.QuestionListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="background-color:white;padding:10px;opacity:70%;">
+    <p style="font-size:25px" ;>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <h2 class="text-center">Question Index</h2>
+    <table class="table">
+        <tr style="color:red;font-size:22px;">
+            <th>
+                @Html.DisplayNameFor(model => model.VenueName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuestionQuestion)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VenueName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuestionQuestion)
+                </td>
+
+                <td>
+
+                    @Html.ActionLink("Edit", "Edit", new { id = item.QuestionId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.QuestionId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.QuestionId }) |
+                    @Html.ActionLink("Create Answer", "Create", "Answer", new { id = item.QuestionId }, null) |
+                    @if ((User.Identity.IsAuthenticated && User.IsInRole("Admin")) || (User.Identity.IsAuthenticated && User.IsInRole("Instructor")))
+                    {
+                        @Html.ActionLink("Give Feedback", "Create", "Feedback", new { id = item.QuestionId }, null)
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

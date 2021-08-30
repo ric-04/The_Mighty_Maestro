@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty_Maestro.WebMVC", "Mighty_Maestro.WebMVC\Mighty_Maestro.WebMVC.csproj", "{455F49C6-1199-481B-B0AC-F9423E0B0828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty_Maestro.Data", "Mighty_Maestro.Data\Mighty_Maestro.Data.csproj", "{F7A0AB5A-52B2-421B-8F3D-95CD43596A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty_Maestro.Models", "Mighty_Maestro.Models\Mighty_Maestro.Models.csproj", "{936FD3EB-30B4-4707-A01E-06A86AE91FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty_Maestro.Services", "Mighty_Maestro.Services\Mighty_Maestro.Services.csproj", "{6D576212-ED7F-4AAD-8077-9A5720CCD196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty_Maestro.Contracts", "Mighty_Maestro.Contracts\Mighty_Maestro.Contracts.csproj", "{6B4BA573-978C-4AAD-A696-BF1BFE093844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty_Maestro.Tests", "Mighty_Maestro.Tests\Mighty_Maestro.Tests.csproj", "{C0AED1DC-D429-46A5-8051-8C601C608D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455F49C6-1199-481B-B0AC-F9423E0B0828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455F49C6-1199-481B-B0AC-F9423E0B0828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455F49C6-1199-481B-B0AC-F9423E0B0828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455F49C6-1199-481B-B0AC-F9423E0B0828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A0AB5A-52B2-421B-8F3D-95CD43596A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A0AB5A-52B2-421B-8F3D-95CD43596A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A0AB5A-52B2-421B-8F3D-95CD43596A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A0AB5A-52B2-421B-8F3D-95CD43596A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936FD3EB-30B4-4707-A01E-06A86AE91FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936FD3EB-30B4-4707-A01E-06A86AE91FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936FD3EB-30B4-4707-A01E-06A86AE91FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936FD3EB-30B4-4707-A01E-06A86AE91FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D576212-ED7F-4AAD-8077-9A5720CCD196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D576212-ED7F-4AAD-8077-9A5720CCD196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D576212-ED7F-4AAD-8077-9A5720CCD196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D576212-ED7F-4AAD-8077-9A5720CCD196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4BA573-978C-4AAD-A696-BF1BFE093844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4BA573-978C-4AAD-A696-BF1BFE093844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4BA573-978C-4AAD-A696-BF1BFE093844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4BA573-978C-4AAD-A696-BF1BFE093844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AED1DC-D429-46A5-8051-8C601C608D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AED1DC-D429-46A5-8051-8C601C608D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AED1DC-D429-46A5-8051-8C601C608D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AED1DC-D429-46A5-8051-8C601C608D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF90DE9-A088-458A-9C2E-E20982BBC4AA}
+	EndGlobalSection
+EndGlobal

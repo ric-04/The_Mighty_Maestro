@@ -1,0 +1,9 @@
+﻿body {
+    background-image: url("Assets/Scream.jpg");
+    position:center center fixed;
+    margin-top: 10em;
+    background-size: 1950px 1150px;
+    background-repeat: no-repeat;
+    font:bold 20px Agency FB;
+    color: black;
+}

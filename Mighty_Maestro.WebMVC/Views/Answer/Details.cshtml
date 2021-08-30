@@ -1,0 +1,48 @@
+﻿@model Mighty_Maestro.Models.Answer.AnswerDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div style="color:black; background-color:white;padding:20px;opacity:70%;">
+    <h2 class="text-center">Answer Details</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AnswerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnswerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaestroId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaestroId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnswerQuestion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnswerQuestion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
